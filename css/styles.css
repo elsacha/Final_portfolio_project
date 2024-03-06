@@ -1,0 +1,145 @@
+body {
+    background-color: #def4e9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    font-size: 4rem;
+    color: rgb(236, 69, 14);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: darkgreen;
+}
+
+#row1 p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h2 a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+h2 a:hover {
+    color: green;
+}
+
+header > img {
+    display: block;
+    height: 200px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #0e3312;
+    overflow: hidden;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;;
+    border-radius: 10px;
+    
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+
+nav li a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#row1 {
+    background-image: url('../images/med_cuisine_05_opacity.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+ }
+ 
+ #row2 {
+    background-color: rgb(195, 182, 163);
+    margin: 10px 10px 10px 0px;
+    border-radius: 10px;
+ }
+
+#row2 img {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+}
+
+#row2 p {
+    text-align: left;
+    color: black;
+    padding: 10px;
+
+}
+
+section {
+    display: flex;
+}
+ 
+
+article {
+    flex: 1;
+}
+
+#opening-hours {
+    list-style: none;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+
+
+footer img {
+    width: auto;
+    height: 100px;
+    border: solid darkgreen 3px;
+    padding: 10px;
+}
+
+#copyright {
+    border-top: solid darkgreen 3px;
+    text-align: right;
+}
